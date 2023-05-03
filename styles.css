@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    background-color: #F3EBF5;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+header nav {
+    height: 20px;
+    background-color: rgb(104, 4, 104);
+}
+
+.names {
+    margin-top: 50px;
+}
+
+.names>div {
+    display: flex;
+    justify-content: center;
+}
+
+.names>div>div {
+    width: 300px;
+    height: 250px;
+    background-color: #EDDDFB;
+    margin-right: 25px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.names>div>div>div {
+    transform: translateY(25%);
+}
+
+.names button {
+    margin: 50px 510px;
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: purple;
+}
+
+.names button:hover {
+    cursor: pointer;
+}
+
+.winner {
+    color: white;
+    background-color: #270848;
+    width: 50%;
+    height: 150px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 2px rgba(27, 5, 37, 0.481);
+}
+
+.big-font {
+    font-size: 2em;
+    margin-bottom: 0;
+    padding-top: 20px;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+}
+
+.game>div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 5px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.game>div>div {
+    width: 150px;
+    height: 150px;
+    background-color: #CCAFF1;
+    margin: 0;
+    border-radius: 10px;
+}
