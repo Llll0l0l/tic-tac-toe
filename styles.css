@@ -86,4 +86,17 @@ header nav {
     background-color: #CCAFF1;
     margin: 0;
     border-radius: 10px;
+    cursor: pointer;
+}
+
+.xod {
+    background-color: #5613B2;
+}
+
+.edit {
+    cursor: pointer;
+}
+
+.edit:hover {
+    text-decoration: underline;
 }
