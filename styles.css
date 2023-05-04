@@ -82,7 +82,7 @@ header nav {
 
 .game>div>div {
     width: 150px;
-    height: 150px;
+    height: 105px;
     background-color: #CCAFF1;
     margin: 0;
     border-radius: 10px;
@@ -90,7 +90,7 @@ header nav {
 }
 
 .xod {
-    background-color: #5613B2;
+    background-color: #5613B2 !important;
 }
 
 .edit {
@@ -99,4 +99,15 @@ header nav {
 
 .edit:hover {
     text-decoration: underline;
+}
+
+.xox {
+    font-size: 5em;
+    text-align: center;
+    vertical-align: middle;
+    padding: 45px 0 25px 0;
+}
+
+.xox span {
+    margin-top: 50px;
 }
