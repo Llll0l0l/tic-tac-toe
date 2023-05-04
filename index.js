@@ -144,9 +144,6 @@ function gameOver(event) {
 }
 
 
-// if game is over disable the click event listener on the parent
-
-// change the you won name part to the player's name
 
 
 // fix the start new game button so that it displays the game
