@@ -72,7 +72,7 @@ header nav {
 }
 
 .game>div {
-    display: grid;
+    display: none;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 5px;
@@ -110,4 +110,8 @@ header nav {
 
 .xox span {
     margin-top: 50px;
+}
+
+.game-visible>div {
+    display: grid !important;
 }

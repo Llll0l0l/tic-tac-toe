@@ -138,13 +138,27 @@ function gameOver(event) {
         } else {
             winnerName[0].innerHTML = `${player1} won`;
         }
+    } else if (div7 != "" && div7 == div5 && div5 == div3) {
+        tto[0].removeEventListener("click", changeTurn);
+        if (div1 == 'X') {
+            winnerName[0].innerHTML = `Player 1,${player1} won`;
+        } else {
+            winnerName[0].innerHTML = `${player2} won`;
+        }
     }
 
 
 }
 
+// reset the game
+function reset() {
+    document.getElementsByClassName("game")[0].classList.add("game-visible");
+    for (let i = 1; i < 10; i++) {
+        const divElm = document.getElementById(`${i}`);
+        divElm.innerHTML = "";
+        divElm.classList.remove("xod");
+    }
+}
 
-
-
-// fix the start new game button so that it displays the game
-// add a clear the board function
+const resetButton = document.getElementById("reset");
+resetButton.addEventListener("click", reset);
