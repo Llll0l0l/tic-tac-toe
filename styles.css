@@ -3,6 +3,7 @@ body {
     background-color: #F3EBF5;
     box-sizing: border-box;
     text-align: center;
+    font-family: Lato;
 }
 
 header nav {
@@ -12,6 +13,11 @@ header nav {
 
 .names {
     margin-top: 50px;
+    color: #270848;
+}
+
+div>h2 {
+    font-size: 2em;
 }
 
 .names>div {
@@ -41,6 +47,7 @@ header nav {
     border: none;
     color: white;
     background-color: purple;
+    font-size: 1.2em;
 }
 
 .names button:hover {
@@ -64,6 +71,11 @@ header nav {
     font-size: 2em;
     margin-bottom: 0;
     padding-top: 20px;
+}
+
+.bigger {
+    font-size: 1.5em;
+    margin-bottom: -20px;
 }
 
 .game {
